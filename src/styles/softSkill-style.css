@@ -1,0 +1,18 @@
+.soft-skill-main {
+    max-width: 1100px;
+
+  }
+  
+  .soft-skills {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los elementos se acomoden en varias filas */
+    gap: 20px; /* Espaciado entre los elementos */
+    justify-content: center;
+  }
+  
+  .soft-skill-card {
+    width: calc(50% - 10px); /* Hace que cada tarjeta ocupe el 50% del ancho, dejando espacio para el gap */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho calculado */
+  }
+  

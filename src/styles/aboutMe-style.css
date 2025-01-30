@@ -1,0 +1,24 @@
+.main-container-about-me {
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+}
+
+.section-container-about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section.group-of-sentences {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.separating-line {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

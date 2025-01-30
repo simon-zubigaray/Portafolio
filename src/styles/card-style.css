@@ -1,0 +1,62 @@
+details {
+    background-color: #131514;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 0; /* Elimina el padding inferior por defecto */
+    min-height: 100px; /* Ajusta este valor según el tamaño de tus tarjetas */
+    overflow: hidden; /* Evita que el contenido abierto mueva las tarjetas */
+  }
+  
+  details:hover {
+    background-color: #262726;
+  }
+  
+  details[open] p{
+    padding: 0px 20px 20px 20px; /* Añade padding inferior cuando está abierto */
+  }
+  
+  summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  figure {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+  }
+  
+  figure img {
+    height: 25px;
+  }
+
+  details {
+    transition: max-height 0.75s ease-in-out;
+    max-height: 2rem; /* Altura inicial para mostrar solo el summary */
+    overflow: hidden;
+  }
+  
+  details[open] {
+    max-height: 500px; /* Ajusta según el contenido */
+  }
+  
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  details div {
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  details[open] div {
+    opacity: 1;
+  }
