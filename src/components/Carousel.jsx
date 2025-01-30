@@ -13,31 +13,36 @@ const Carousel = () => {
       title: "Games Heaven",
       description:
         "Primer proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN.",
-      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/GamesHaven/index.html"
-      },
+      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/GamesHaven/index.html",
+    },
     {
       src: SpiderManPage,
       title: "Spider-Man Game Page",
       description:
         "Segundo proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN.",
-      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/SpiderMan%20Game%20Page/index.html"
-      },
+      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/SpiderMan%20Game%20Page/index.html",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
 
-  /*La función toma el valor anterior de currentIndex (prevIndex) y le suma 1, luego toma el resultado y usa el operador módulo (%) con la longitud del array items (items.length). 
-  Esto asegura que el índice vuelva al principio cuando alcance el final del array, creando un ciclo continuo.*/
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+    setIsAnimating(true);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+      setIsAnimating(false);
+    }, 100);
   };
 
-  /*La función toma el valor anterior de currentIndex (prevIndex) y le resta 1, luego suma la longitud del array items (items.length) y usa el operador módulo (%) con la longitud del array. 
-  Este enfoque asegura que el índice vuelva al final del array si es menor que 0, permitiendo un ciclo continuo hacia atrás.*/
   const prevSlide = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + items.length) % items.length
-    );
+    setIsAnimating(true);
+    setTimeout(() => {
+      setCurrentIndex(
+        (prevIndex) => (prevIndex - 1 + items.length) % items.length
+      );
+      setIsAnimating(false);
+    }, 100);
   };
 
   return (
@@ -52,8 +57,10 @@ const Carousel = () => {
           onClick={prevSlide}
           className="carousel-button prev-button"
         />
-        <section className="carousel-card">
-        <a href={items[currentIndex].link} target="_blank"><img src={items[currentIndex].src} alt={items[currentIndex].title} /></a>
+        <section className={`carousel-card ${isAnimating ? "fade-in" : ""}`}>
+          <a href={items[currentIndex].link} target="_blank">
+            <img src={items[currentIndex].src} alt={items[currentIndex].title} />
+          </a>
           <section className="data-card-carousel">
             <a href={items[currentIndex].link}>
               <h3 className="title-card-carousel">

@@ -40,3 +40,27 @@ section.data-card-carousel a {
 section.data-card-carousel a:hover{
     color: #f5aa00;
 }
+
+.fade-in {
+    opacity: 0.5;
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+        transform: rotate3d(1, 1, 0, 10deg) scale(0.95);
+    }
+    30% {
+        opacity: 0.7;
+        transform: rotate3d(1, 1, 0, 5deg) scale(1.02);
+    }
+    60% {
+        opacity: 0.85;
+        transform: rotate3d(1, 1, 0, 2deg) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0, 0deg) scale(1);
+    }
+}
