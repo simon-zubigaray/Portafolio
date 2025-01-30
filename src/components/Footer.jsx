@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
         <a href="#App"><img src={Logo} alt="" /></a>
-        <p>Copyright © 1996 - 2023 - Zubigaray, Juan Simon</p>
+        <p>Copyright © 1996 - 2025 - Zubigaray, Juan Simon</p>
     </footer>
   )
 }

@@ -13,13 +13,15 @@ const Carousel = () => {
       title: "Games Heaven",
       description:
         "Primer proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN.",
-    },
+      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/GamesHaven/index.html"
+      },
     {
       src: SpiderManPage,
       title: "Spider-Man Game Page",
       description:
         "Segundo proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN.",
-    },
+      link: "https://zubigaray24.github.io/Proyectos-con-html-css-js/SpiderMan%20Game%20Page/index.html"
+      },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,7 +55,7 @@ const Carousel = () => {
         <section className="carousel-card">
           <img src={items[currentIndex].src} alt={items[currentIndex].title} />
           <section className="data-card-carousel">
-            <a href="">
+            <a href={items[currentIndex].link}>
               <h3 className="title-card-carousel">
                 {items[currentIndex].title}
               </h3>

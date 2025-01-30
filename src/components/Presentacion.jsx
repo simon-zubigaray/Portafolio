@@ -23,14 +23,14 @@ function Presentacion() {
           <a href="/public/CV_Juan_Simon_Zubigaray.pdf" download="CV_Juan_Simon_Zubigaray.pdf">
             <button className="presentation-button btnfos-4">Descargar CV</button>
           </a>
-          <a href="">
+          <a href="https://github.com/simon-zubigaray">
             {" "}
             <button className="presentation-button btnfos-4">
               <img src={Github} alt="" />
               GitHub
             </button>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/zubigarayjuansimon/">
             {" "}
             <button className="presentation-button btnfos-4">
               <img src={Linkedin} alt="" />
