@@ -3,6 +3,8 @@
     border: #000 solid;
     max-width: 500px;
     padding: 5px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px black;
 }
 
 main.soft-skill-card section {

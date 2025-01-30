@@ -53,7 +53,7 @@ const Carousel = () => {
           className="carousel-button prev-button"
         />
         <section className="carousel-card">
-          <img src={items[currentIndex].src} alt={items[currentIndex].title} />
+        <a href={items[currentIndex].link} target="_blank"><img src={items[currentIndex].src} alt={items[currentIndex].title} /></a>
           <section className="data-card-carousel">
             <a href={items[currentIndex].link}>
               <h3 className="title-card-carousel">

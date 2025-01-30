@@ -8,6 +8,13 @@
 
 .carousel-button{
     cursor: pointer;
+    position:relative;
+    transition-duration: .75s;
+}
+
+.carousel-button:hover{
+    scale: 1.1;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.8));
 }
 
 section.carousel-card img {
