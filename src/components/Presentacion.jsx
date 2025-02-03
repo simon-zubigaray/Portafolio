@@ -1,6 +1,6 @@
 import Github from "../images/logos/iconoGithub.png";
 import Linkedin from "../images/logos/iconoLinkedin.png";
-import FotoPersonal from "../images/exampleImg.jpg";
+import FotoPersonal from "../images/foto-perfil.png";
 import "../styles/presentacion-style.css";
 
 function Presentacion() {

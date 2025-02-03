@@ -32,7 +32,7 @@
 }
 
 aside img {
-  max-width: 500px;
+  /*max-width: 500px;*/
   max-height: 500px;
   border-radius: 25px;
 }
