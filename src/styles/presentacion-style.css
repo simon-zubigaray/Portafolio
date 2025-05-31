@@ -1,0 +1,103 @@
+.main-container-presentacion {
+  display: flex;
+  justify-content: center;
+  gap: 106px;
+  margin-top: 80px;
+  max-width: 1100px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.1;
+  height: 50px;
+  color: aliceblue;
+}
+
+.first-letter {
+  color: #f5aa00;
+}
+
+.brief-description {
+  max-width: 567px;
+  max-height: 112px;
+  min-height: 108px;
+}
+
+.main-presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+aside img {
+  /*max-width: 500px;*/
+  max-height: 500px;
+  border-radius: 25px;
+}
+
+.presentation-button-group {
+  display: flex;
+  gap: 40px;
+}
+
+section.presentation-button-group a {
+  text-decoration: none;
+}
+
+.presentation-button {
+  min-width: 140px;
+  min-height: 60px;
+
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  border: solid #000;
+
+  font-size: 1em;
+  font-weight: 500;
+
+  transition: border-color 0.25s;
+}
+
+.presentation-button:hover{
+  border-color: #f5aa00;
+}
+
+button.presentation-button img {
+  width: 24px;
+  height: 24px;
+}
+
+/*Animacion boton*/
+.btnfos-4 {
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+}
+
+.btnfos-4:after {
+  background: #f5aa00;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  width: 50px;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transform: rotate(35deg);
+  z-index: -10;
+}
+
+.btnfos-4:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}

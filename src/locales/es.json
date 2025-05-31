@@ -1,0 +1,77 @@
+{
+  "nav-start": "Inicio",
+  "nav-about-me": "Sobre Mi",
+  "nav-technologies": "Tecnologias",
+  "nav-projects": "Proyectos",
+  "nav-soft-skills": "Habilidades Blandas",
+  "nav-contact": "Contacto",
+
+  "presentacion-subtitle": "Hola! Soy",
+  "presentacion-brief-description": "Soy un desarrollador full stack apasionado por crear soluciones tecnológicas innovadoras y escalables. Con experiencia tanto en frontend como en backend, me especializo en construir aplicaciones web.",
+  "presentacion-download-cv": "Descargar CV",
+
+  "aboutMe-title": "Sobre Mi —",
+  "aboutMe-description-about-me-1": "Soy un joven profesional de 25 años, originario de Tandil, Buenos Aires, con una sólida formación técnica y académica en el ámbito de la informática.",
+  "aboutMe-description-about-me-2": "Actualmente, me encuentro cursando la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas (TUDAI) en la Facultad de Ciencias Exactas de la Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN), donde estoy adquiriendo conocimientos avanzados en desarrollo de software y aplicaciones.",
+  "aboutMe-description-about-me-3": "Previamente, me gradué como Técnico Informático en la Escuela de Educación Secundaria Técnica N°2, donde consolidé una base técnica sólida y habilidades prácticas en el campo de la informática.",
+
+  "technologies-title": "Tecnologías —",
+  "technologies-frontend-title": "Tecnologías Frontend:",
+  "technologies-backend-title": "Tecnologías Backend:",
+  "technologies-other-tools": "Otras Herramientas:",
+  "html-description": "Es el lenguaje de marcado utilizado para estructurar y organizar el contenido en la web. Define los elementos básicos como encabezados, párrafos, imágenes y enlaces dentro de una página web.",
+  "css-description": "Es un lenguaje de estilo que se usa para controlar la apariencia y el diseño de las páginas web. Permite modificar colores, tipografía, márgenes, disposición de los elementos y mucho más.",
+  "bootstrap-description": "Es un framework de código abierto que proporciona herramientas y componentes predefinidos para crear sitios web responsivos y con un diseño atractivo. Facilita el desarrollo de interfaces de usuario mediante CSS y JavaScript.",
+  "tailwind-description": "Es un framework CSS que utiliza clases utilitarias para crear diseños personalizados de manera rápida. A diferencia de otros frameworks, Tailwind se centra en la flexibilidad y el control total sobre el diseño sin imponer estilos predeterminados.",
+  "javascript-description": "Es un lenguaje de programación que permite agregar interactividad y dinamismo a las páginas web. Se usa para manipular el contenido HTML y CSS, así como para interactuar con el servidor y responder a las acciones del usuario.",
+  "react-description": "Es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables. Se basa en componentes que gestionan su propio estado y actualizan la interfaz de forma eficiente mediante un virtual DOM.",
+  "java-description": "Lenguaje de programación orientado a objetos, robusto y multiplataforma, utilizado en aplicaciones empresariales, móviles y web. Su máquina virtual (JVM) permite ejecutar el mismo código en distintos sistemas operativos sin modificaciones.",
+  "springboot-description": "Framework basado en Java que facilita la creación de aplicaciones web y microservicios con configuraciones automáticas. Incluye herramientas como inyección de dependencias, seguridad y manejo de bases de datos para optimizar el desarrollo.",
+  "php-description": "Lenguaje de programación interpretado y ampliamente utilizado en desarrollo web para generar contenido dinámico en servidores. Su facilidad de integración con bases de datos y compatibilidad con HTML lo hacen ideal para aplicaciones web.",
+  "laravel-description": "Framework de PHP que sigue el patrón MVC y proporciona herramientas avanzadas para el desarrollo web, como migraciones, autenticación y enrutamiento. Su sintaxis elegante y enfoque modular agilizan la creación de aplicaciones escalables y mantenibles.",
+  "git-description": "Sistema de control de versiones distribuido que permite gestionar y rastrear cambios en el código, facilitando la colaboración entre desarrolladores.",
+  "docker-description": "Plataforma para crear, distribuir y ejecutar aplicaciones en contenedores, asegurando que el software funcione de manera consistente en cualquier entorno.",
+  "mysql-description": "Sistema de gestión de bases de datos relacional (RDBMS) de código abierto, ampliamente usado en aplicaciones web y empresariales por su rendimiento y estabilidad.",
+  "postgresql-description": "Base de datos relacional avanzada y de código abierto, conocida por su robustez, extensibilidad y cumplimiento con estándares SQL.",
+  "sqlite-description": "Base de datos relacional ligera y embebida, ideal para aplicaciones móviles o de escritorio que requieren almacenamiento sin un servidor dedicado.",
+  "mongodb-description": "Base de datos NoSQL basada en documentos, que almacena datos en formato JSON flexible, permitiendo escalabilidad y alta disponibilidad.",
+
+  
+  "projects": {
+    "projects-title": "Proyectos —",
+    "games_heaven": {
+      "title": "Games Heaven",
+      "description": "Primer proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN."
+    },
+    "spider_man_game": {
+      "title": "Spider-Man Game Page",
+      "description": "Segundo proyecto hecho con mi compañero @ggonza12 para la materia Interfaces de usuario e interaccion de la carrera TUDAI en la UNICEN."
+    }
+  },
+
+  "soft_skills": {
+    "soft-skills-title": "Habilidades Blandas",
+    "teamwork": {
+      "title": "Trabajo en Equipo",
+      "description": "He fortalecido mi habilidad para trabajar en equipo mediante experiencias colaborativas, aprendiendo la importancia de la comunicación, cooperación y empatía para lograr metas comunes. Esto me ha permitido contribuir eficazmente a los objetivos colectivos y mejorar mis relaciones interpersonales."
+    },
+    "resilience": {
+      "title": "Resiliencia",
+      "description": "He desarrollado resiliencia al superar adversidades, aprendiendo a mantener la calma, aprender de las experiencias y seguir con determinación. Esto me ha fortalecido para afrontar futuros desafíos con una mentalidad positiva y enfocada."
+    },
+    "adaptability": {
+      "title": "Adaptabilidad",
+      "description": "He desarrollado adaptabilidad al enfrentar entornos cambiantes, ajustando rápidamente mis enfoques y viendo el cambio como una oportunidad para crecer y aprender continuamente."
+    },
+    "receptivity_to_criticism": {
+      "title": "Receptividad a las críticas",
+      "description": "He fortalecido mi habilidad para recibir críticas mediante experiencias colaborativas, aprendiendo la importancia de la comunicación, cooperación y empatía para mejorar continuamente. Esto me ha permitido crecer personal y profesionalmente."
+    }
+  },
+
+  "contact": {
+    "description-title": "Contacto —",
+    "description-contact-1": "Si eres un empleador, reclutador o estás interesado en explorar oportunidades laborales, estaré encantado de conectar contigo. Estoy abierto a considerar roles en empresas o startups donde pueda aportar valor y continuar desarrollándome profesionalmente.",
+    "description-contact-2": "No dudes en contactarme a través de los siguientes medios:"
+  }
+}

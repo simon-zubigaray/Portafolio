@@ -1,0 +1,31 @@
+.main-container-technologies {
+  max-width: 1100px;
+}
+
+.spacing-title {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+/* technologies-style.css */
+.technologies-tools-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espacio entre las tarjetas */
+  justify-content: center; /* distribuye las tarjetas de manera uniforme */
+  align-items: stretch;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 45%; /* Ajusta según sea necesario */
+}
+
+.separating-line {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

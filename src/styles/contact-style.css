@@ -1,0 +1,12 @@
+.main-contact{
+    max-width: 1100px;
+    min-height: 400px;
+}
+
+.section-contact{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

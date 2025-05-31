@@ -1,0 +1,47 @@
+.navbar {
+  width: 100vw;  /* Asegura que ocupe todo el ancho disponible */
+  display: flex;
+  justify-content: space-around;  /* Distribuye los elementos con espacio entre ellos */
+  align-items: center;
+  background-color: #131514;
+  padding: 0 20px;  /* Añade algo de relleno para que los elementos no se toquen con los bordes */
+  position: sticky;  /* Activa el comportamiento sticky */
+  top: 0;  /* Fija el nav en la parte superior */
+  z-index: 10;  /* Asegura que el nav se quede encima de otros elementos al desplazarse */
+}
+
+
+.list-of-items {
+  display: flex;
+  list-style-type: none;
+  min-width: 732px;
+  justify-content: center;
+}
+
+li.nav-item {
+  margin-right: 40px;
+}
+
+/* Elimino el margen del último elemento */
+li.nav-item:last-child {
+  margin-right: 0;
+}
+
+li.nav-item a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+li.nav-item a:hover {
+  color: #f5aa00;
+}
+
+.languages-section {
+  display: flex;
+  gap: 15px;
+}
+
+.language {
+  cursor: pointer;
+}

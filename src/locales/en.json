@@ -1,0 +1,77 @@
+{
+    "nav-start": "Home",
+    "nav-about-me": "About Me",
+    "nav-technologies": "Technologies",
+    "nav-projects": "Projects",
+    "nav-soft-skills": "Soft Skills",
+    "nav-contact": "Contact",
+  
+    "presentacion-subtitle": "Hello! I'm",
+    "presentacion-brief-description": "I am a full-stack developer passionate about creating innovative and scalable technological solutions. With experience in both frontend and backend, I specialize in building web applications.",
+    "presentacion-download-cv": "Download CV",
+  
+    "aboutMe-title": "About Me —",
+    "aboutMe-description-about-me-1": "I am a 25-year-old professional from Tandil, Buenos Aires, with a strong technical and academic background in the field of computer science.",
+    "aboutMe-description-about-me-2": "I am currently studying for a University Degree in Software Development (TUDAI) at the Faculty of Exact Sciences of the National University of the Center of the Province of Buenos Aires (UNICEN), where I am acquiring advanced knowledge in software and application development.",
+    "aboutMe-description-about-me-3": "Previously, I graduated as an IT Technician at the Technical Secondary Education School No. 2, where I built a solid technical foundation and practical skills in the field of computer science.",
+  
+    "technologies-title": "Technologies —",
+    "technologies-frontend-title": "Frontend Technologies:",
+    "technologies-backend-title": "Backend Technologies:",
+    "technologies-other-tools": "Other Tools:",
+    "html-description": "It is the markup language used to structure and organize web content. It defines basic elements such as headings, paragraphs, images, and links within a web page.",
+    "css-description": "It is a styling language used to control the appearance and layout of web pages. It allows modifying colors, typography, margins, element positioning, and much more.",
+    "bootstrap-description": "It is an open-source framework that provides predefined tools and components to create responsive websites with attractive designs. It facilitates UI development using CSS and JavaScript.",
+    "tailwind-description": "It is a CSS framework that uses utility classes to quickly create custom designs. Unlike other frameworks, Tailwind focuses on flexibility and full design control without imposing default styles.",
+    "javascript-description": "It is a programming language that allows adding interactivity and dynamism to web pages. It is used to manipulate HTML and CSS content, interact with the server, and respond to user actions.",
+    "react-description": "It is a JavaScript library for building interactive and reusable user interfaces. It is based on components that manage their own state and efficiently update the UI using a virtual DOM.",
+    "java-description": "An object-oriented, robust, and cross-platform programming language used in enterprise, mobile, and web applications. Its virtual machine (JVM) allows the same code to run on different operating systems without modifications.",
+    "springboot-description": "A Java-based framework that simplifies the creation of web applications and microservices with automatic configurations. It includes tools like dependency injection, security, and database management to optimize development.",
+    "php-description": "An interpreted programming language widely used in web development to generate dynamic content on servers. Its ease of integration with databases and compatibility with HTML make it ideal for web applications.",
+    "laravel-description": "A PHP framework that follows the MVC pattern and provides advanced tools for web development, such as migrations, authentication, and routing. Its elegant syntax and modular approach speed up the creation of scalable and maintainable applications.",
+    "git-description": "A distributed version control system that allows managing and tracking code changes, facilitating collaboration among developers.",
+    "docker-description": "A platform for creating, distributing, and running applications in containers, ensuring software runs consistently across different environments.",
+    "mysql-description": "An open-source relational database management system (RDBMS) widely used in web and enterprise applications for its performance and stability.",
+    "postgresql-description": "An advanced and open-source relational database known for its robustness, extensibility, and compliance with SQL standards.",
+    "sqlite-description": "A lightweight and embedded relational database, ideal for mobile or desktop applications that require storage without a dedicated server.",
+    "mongodb-description": "A NoSQL document-based database that stores data in a flexible JSON format, allowing scalability and high availability.",
+  
+    "projects": {
+      "projects-title": "Projects —",
+      "games_heaven": {
+        "title": "Games Heaven",
+        "description": "First project created with my partner @ggonza12 for the User Interfaces and Interaction course at TUDAI, UNICEN."
+      },
+      "spider_man_game": {
+        "title": "Spider-Man Game Page",
+        "description": "Second project created with my partner @ggonza12 for the User Interfaces and Interaction course at TUDAI, UNICEN."
+      }
+    },
+  
+    "soft_skills": {
+      "soft-skills-title": "Soft Skills",
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "I have strengthened my ability to work in a team through collaborative experiences, learning the importance of communication, cooperation, and empathy to achieve common goals. This has allowed me to contribute effectively to collective objectives and improve my interpersonal relationships."
+      },
+      "resilience": {
+        "title": "Resilience",
+        "description": "I have developed resilience by overcoming adversity, learning to stay calm, learn from experiences, and move forward with determination. This has strengthened me to face future challenges with a positive and focused mindset."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "I have developed adaptability by facing changing environments, quickly adjusting my approaches, and seeing change as an opportunity to grow and continuously learn."
+      },
+      "receptivity_to_criticism": {
+        "title": "Receptiveness to Criticism",
+        "description": "I have strengthened my ability to receive criticism through collaborative experiences, learning the importance of communication, cooperation, and empathy to continuously improve. This has allowed me to grow both personally and professionally."
+      }
+    },
+  
+    "contact": {
+      "description-title": "Contact —",
+      "description-contact-1": "If you are an employer, recruiter, or interested in exploring job opportunities, I would be happy to connect with you. I am open to considering roles in companies or startups where I can add value and continue growing professionally.",
+      "description-contact-2": "Feel free to reach out to me through the following means:"
+    }
+  }
+  
